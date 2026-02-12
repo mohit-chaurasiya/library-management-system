@@ -1,0 +1,85 @@
+{
+    "books" : [
+  {
+    "id": 1,
+    "name": "The Silent Algorithm",
+    "author": "Arjun Mehta",
+    "genre": "Technology",
+    "price": 499,
+    "publisher": "TechWorld Publications"
+  },
+  {
+    "id": 2,
+    "name": "Whispers of the Wind",
+    "author": "Ananya Verma",
+    "genre": "Fiction",
+    "price": 299,
+    "publisher": "BlueLeaf Publishers"
+  },
+  {
+    "id": 3,
+    "name": "Mastering Node.js",
+    "author": "Rohit Sharma",
+    "genre": "Programming",
+    "price": 599,
+    "publisher": "CodeCraft Press"
+  },
+  {
+    "id": 4,
+    "name": "The Lost Kingdom",
+    "author": "Vikram Singh",
+    "genre": "Fantasy",
+    "price": 399,
+    "publisher": "Epic Reads"
+  },
+  {
+    "id": 5,
+    "name": "Data Structures Simplified",
+    "author": "Neha Kapoor",
+    "genre": "Education",
+    "price": 450,
+    "publisher": "LearnEasy Publications"
+  },
+  {
+    "id": 6,
+    "name": "Digital Marketing 101",
+    "author": "Sanya Gupta",
+    "genre": "Business",
+    "price": 350,
+    "publisher": "MarketMinds"
+  },
+  {
+    "id": 7,
+    "name": "The Mystery of Dark Lake",
+    "author": "Kabir Roy",
+    "genre": "Thriller",
+    "price": 420,
+    "publisher": "Shadow House"
+  },
+  {
+    "id": 8,
+    "name": "Cloud Computing Essentials",
+    "author": "Priya Nair",
+    "genre": "Technology",
+    "price": 650,
+    "publisher": "SkyNet Press"
+  },
+  {
+    "id": 9,
+    "name": "History of Ancient India",
+    "author": "Raj Malhotra",
+    "genre": "History",
+    "price": 380,
+    "publisher": "Heritage Publications"
+  },
+  {
+    "id": 10,
+    "name": "The Art of Mindfulness",
+    "author": "Ishita Sen",
+    "genre": "Self-Help",
+    "price": 270,
+    "publisher": "Peaceful Living Press"
+  }
+]
+
+}
