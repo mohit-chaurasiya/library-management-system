@@ -1,4 +1,10 @@
 const express = require("express");
+const {users} =require("./data/users.json")
+
+
+// importing router
+const usersRouter = require("./routes/users")
+const booksRouter = require("./routes/books")
 
 const app = express();
 
@@ -12,11 +18,16 @@ app.get("/",(req,res) => {
     })
 })
 
-app.all('',(req,res)=>{
-    res.status(500).json({
-        message: "Not Built Yet"
-    })
-})
+
+app.use("/users",usersRouter);
+app.use("/books",booksRouter);
+
+
+// app.all('',(req,res)=>{
+//     res.status(500).json({
+//         message: "Not Built Yet"
+//     })
+// })
 
 app.listen(port,()=>{
     console.log(`Server running on http://localhost:${port}`);
